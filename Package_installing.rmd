@@ -1,0 +1,12 @@
+---
+title: "Package_installing"
+author: "Marc Bañuls Tornero"
+date: "22/3/2021"
+output: html_document
+---
+
+Installing here all the needed packages:
+```{r}
+install.packages(c("tidyverse", "tidytext", "gutenbergr", "SnowballC", "ggraph", "igraph", "wordcloud", "topicmodels", "textdata"))
+```
+
