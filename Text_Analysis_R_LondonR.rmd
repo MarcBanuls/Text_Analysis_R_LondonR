@@ -1,0 +1,27 @@
+---
+title: "Text_Analysis_R"
+author: "Marc Bañuls Tornero"
+date: "23/3/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Loading packages
+library("tidyverse")
+library("tidytext")
+library("gutenbergr")
+library("SnowballC")
+library("ggraph")
+library("igraph")
+library("wordcloud")
+library("topicmodels")
+library("textdata")
+```
+
+# Text analysis in R
+
+
